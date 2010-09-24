@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html lang='en-US' xml:lang='en-US' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html' http-equiv='Content-Type' />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Example</title>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.localize-time.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $(".datetime").localize_time();
+      });
+    </script>
+  </head> 
+  <body>
+    <p>Original time is Wed Sep 22 21:45:12 +0800 2010. Local time is <span class="datetime">Wed Sep 22 21:45:12 +0800 2010</span></p>
+    <p>Original time is Wed Sep 22 20:21:32 UTC 2010. Local time is <span class="datetime">Wed Sep 22 21:21:32 UTC 2010</span></p>
+    <p>Original time is 2010-09-22T22:28:53+01:00. Local time is <span class="datetime">2010-09-22T22:28:53+01:00</span></p>
+  </body>
+</html>
